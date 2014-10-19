@@ -62,4 +62,6 @@ public class ExerciciGIT {
 		
 		lector.close();	
 	}
+	
+	//Copia del projecte2
 }
