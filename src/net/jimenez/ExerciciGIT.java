@@ -1,12 +1,12 @@
 package net.jimenez;
 
-//Copia del projecte1
-
 import java.util.Scanner;
 import java.util.*;
 
 public class ExerciciGIT {
 
+	//Copia del projecte1
+	
 	public static void main(String[] args) {
 		
 		HashMap<Character, Integer> map = new HashMap<Character, Integer>();
@@ -64,4 +64,5 @@ public class ExerciciGIT {
 		
 		lector.close();	
 	}
+	
 }
