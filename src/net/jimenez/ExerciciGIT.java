@@ -1,5 +1,7 @@
 package net.jimenez;
 
+//Copia del projecte1
+
 import java.util.Scanner;
 import java.util.*;
 
