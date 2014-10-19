@@ -15,9 +15,22 @@ public class ExerciciGIT {
 		
 		String frase = lector.nextLine();
 		
+		System.out.println();
+		
 		frase = frase.toLowerCase();
 		
 		frase = frase.replace(" ", "");
+		
+		int numeric = 0;
+		
+		for ( int i = 0; i < frase.length(); i++ ) {
+		
+			if ((int)frase.charAt(i) > 47 && (int)frase.charAt(i) < 58 ){
+				
+				numeric++;
+				
+			}	
+		}
 		
 		for ( int i = 0; i < frase.length(); i++ ) {
 			
@@ -43,6 +56,9 @@ public class ExerciciGIT {
 			System.out.println("Caràcter " + conjunt.getKey() + 
 					" repetit " + conjunt.getValue() + " vegades.");
 		}
+		
+		System.out.println();
+		System.out.println("Hi ha un total de " + numeric + " caràcters que no son lletres dins la frase.");
 		
 		lector.close();	
 	}
