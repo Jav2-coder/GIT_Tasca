@@ -3,9 +3,9 @@ package net.jimenez;
 import java.util.Scanner;
 import java.util.*;
 
-public class ExerciciGIT {
+//Copia del projecte2
 
-	//Copia del projecte2
+public class ExerciciGIT {
 	
 	public static void main(String[] args) {
 		
