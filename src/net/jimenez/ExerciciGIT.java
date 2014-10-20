@@ -1,9 +1,9 @@
 package net.jimenez;
 
-//Copia del projecte 1
-
 import java.util.Scanner;
 import java.util.*;
+
+//Copia del projecte 1
 
 public class ExerciciGIT {
 	
