@@ -5,6 +5,8 @@ import java.util.*;
 
 public class ExerciciGIT {
 
+	//Copia del projecte2
+	
 	public static void main(String[] args) {
 		
 		HashMap<Character, Integer> map = new HashMap<Character, Integer>();
@@ -63,5 +65,4 @@ public class ExerciciGIT {
 		lector.close();	
 	}
 	
-	//Copia del projecte2
 }
